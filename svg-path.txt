@@ -1,4 +1,0 @@
-<svg height='14' viewBox='0 0 18 18' width='14'><path d='M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z' color='#555'/></svg>
-<svg height='14' viewBox='0 0 18 18' width='14'><path d='M20 6H12L10 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V8C22 6.9 21.1 6 20 6M18 12H16V14H18V16H16V18H14V16H16V14H14V12H16V10H14V8H16V10H18V12Z' color='#555'/></svg>
-
-The preview sample rendering results using 4K Texture and HDRI. But the .blend file format available for download uses 2K as the sample. I do this to reduce the file size when you download it. That's why I placed the reference link for you to download and choose the resolution you need.
