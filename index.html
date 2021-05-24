@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 </style>
 <div class="container">
 <h3 style="text-align: center;">ARTICLES</h3>
-<p>About references and life experiences.</p>
+<p style="text-align: center;">About references and life experiences.</p>
   <div class="row">
   {% for post in paginator.posts %}
     <div class="col-sm-4">
@@ -80,4 +80,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 {% if paginator.next_page %} 
 <a style="text-decoration: none; padding: 10px;" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Next Page">Next <svg height='24' viewBox='0 0 24 24' width='24'><path d='M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z' color='#555'/></svg></a>
 {% endif %}  
+</div>
+
+<br/>
+<div style='width: 100%; height: 400px;'>
+<div class="container">
+<h3 style="text-align: center;">JEKYLL THEMES</h3>
+<p style="text-align: center;">Responsive static website themes for personal & company profile.</p>
+</div>
 </div>
