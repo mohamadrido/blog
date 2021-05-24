@@ -11,7 +11,50 @@ title:
     <button><a style="text-decoration: none; color: #fff;" href="https://mohamadrido.github.io/personal-jekyll-theme/about">ABOUT ME</a></button>
   </div>
 </div>
-<link rel="stylesheet" href="https://mohamadrido.github.io/personal-jekyll-theme/assets/style.css">
+<style>
+body, html {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-style:normal;
+  margin: 0;
+  background: #fff;
+  font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight:300;
+}
+.hero-image {
+  background-image: url("https://mohamadrido.github.io/personal-jekyll-theme/assets/pexels-photo-2261017.jpeg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  scrollbar-width: none;
+}
+.hero-text {
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #555;
+}
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: #fff;
+  background-color: #dc143c;
+  text-align: center;
+  cursor: pointer;
+}
+.hero-text button:hover {
+  background-color: #008080;
+  color: #fff;
+}
+</style>
 <div class="container">
   <div class="row">
   {% for post in paginator.posts %}
