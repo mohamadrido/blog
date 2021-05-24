@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% seo %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+<header class="topnav" id="myTopnav">
+  <a href="https://mohamadrido.com">Mohamad Rido</a>
+  <div class="header-right">
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  <a href="https://github.com/mohamadrido">Jekyll Theme</a>
+  <a href="https://mohamadrido.com/categories">All Article</a>
+  <a href="https://mohamadrido.com/contact">Contact</a>
+  <a href="https://mohamadrido.com/about">About</a>
+  </div>
+</header>
+
+{{ content }}
+
+<!-- Ads here -->
+<div class="container" style="text-align: center;">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5531330043170221"
+     data-ad-slot="8618707579"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+<footer style="text-align: center; padding: 16px;">
+<!-- Social footer -->
+<a target="_blank" href="https://linkedin.com/in/mohamadrido"><i class="fab fa-linkedin"></i></a>
+<a target="_blank" href="https://github.com/mohamadrido"><i class="fab fa-github"></i></a>
+<a target="_blank" href="https://t.me/mohamadrido"><i class="fab fa-telegram"></i></a>
+<br/>
+<!-- Footer credit -->
+<div style="color: #6c757d;">
+&copy; 2018 - <span id="pdm"></span> {{site.name}}
+</div>
+<script>
+document.getElementById("pdm").innerHTML = new Date().getFullYear();
+</script>
+</footer>
+<script src="https://mohamadrido.com/assets/topnav.js"></script>
+<!-- Scroll to Top -->
+<style>
+#myBtn {  display: none;  position: fixed;  bottom: 4.5em;  right: 1.5em;  z-index: 99;  font-size: 18px;  border: none;  outline: none;  background-color: #008eff;  color: white;  cursor: pointer;  padding: 0px 4px 0px 4px;  border-radius: 100%;} #myBtn:hover {  background-color: #0079de;}
+</style>
+<button onclick="topFunction()" id="myBtn"><svg style='width: 42px; height: 48px; ertical-align: middle;' viewBox="0 0 24 24"><path d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='#fff'></path></svg></button>
+<script>
+var mybutton = document.getElementById("myBtn");window.onscroll = function() {scrollFunction()};function scrollFunction() {  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {    mybutton.style.display = "block";  } else {    mybutton.style.display = "none";  }}function topFunction() {  document.body.scrollTop = 0;  document.documentElement.scrollTop = 0;}
+</script>
+<!-- Cookie Consent popup to comply with EU cookie law -->
+<link rel="stylesheet" type="text/css" href="https://mohamadrido.com/assets/cookieconsent.min.css"/>
+<script src="https://mohamadrido.com/assets/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){window.cookieconsent.initialise({"cookie": { "expiryDays": 730 },"palette": {"popup": { "background": "#212327" },"button": { "background": "#007bff" }},"theme": "classic"});});
+</script>
+</body>
+</html> 

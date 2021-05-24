@@ -1,0 +1,13 @@
+name: 'Mohamad Rido'
+description: 'Author & 3D Modeler'
+author: 'Mohamad Rido'
+email: 'mohamad.rido@yandex.com'
+permalink: /:title
+plugin:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+markdown: kramdown
+highlighter: rouge
+paginate: 9
