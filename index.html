@@ -102,14 +102,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 <p style="text-align: center; font-size: 14px;">Free responsive static website themes for personal & company profile.</p>
 
 {% for post in site.categories.Internet %}
-    <div class="row">
-{{ post.date | date_to_string }}
-    <div class="column" style="border-color: none;">
+  <div class="column" style="border-color: none;">
     <div class="card" style="border-color: #fff;">
     <a style="text-decoration: none;" href="{{ post.url }}">
     <img style="width: 100%; border-radius: 5px;" src="{{post.image}}">
     <h3 style="font-size: 1rem; font-weight: 400; color: #333;">{{ post.title }}</h3>
     </a>
+    </div>
+  </div>
 {% endfor %}
 
 </div>
