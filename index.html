@@ -84,24 +84,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 <a style="text-decoration: none; padding: 10px;" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Next Page">Next <svg height='24' viewBox='0 0 24 24' width='24'><path d='M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z' color='#555'/></svg></a>
 {% endif %}  
 </div>
-
-<div class="container">
-<h3 style="text-align: center;">JEKYLL THEMES</h3>
-<p style="text-align: center; font-size: 14px;">Free responsive static website themes for personal & company profile.</p>
-
-{% for post in site.categories.Themes %}
-  <div class="column" style="border-color: none;">
-    <div class="card" style="border-color: #fff;">
-    <a style="text-decoration: none;" href="{{ post.url }}">
-    <img style="width: 100%; border-radius: 5px;" src="{{post.image}}">
-    <h3 style="font-size: 1rem; font-weight: 400; color: #333;">{{ post.title }}</h3>
-    </a>
-    </div>
-  </div>
-{% endfor %}
-
-</div>
-
 <!-- Ads here -->
 <div class="container" style="text-align: center;">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -114,4 +96,18 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+<div class="container">
+<h3 style="text-align: center;">JEKYLL THEMES</h3>
+<p style="text-align: center; font-size: 14px;">Free responsive static website themes for personal & company profile.</p>
+{% for post in site.categories.Themes %}
+  <div class="column" style="border-color: none;">
+    <div class="card" style="border-color: #fff;">
+    <a style="text-decoration: none;" href="{{ post.url }}">
+    <img style="width: 100%; border-radius: 5px;" src="{{post.image}}">
+    <h3 style="font-size: 1rem; font-weight: 400; color: #333;">{{ post.title }}</h3>
+    </a>
+    </div>
+  </div>
+{% endfor %}
 </div>
