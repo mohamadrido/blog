@@ -6,4 +6,5 @@ category: [ Themes ]
 tags: [ jekyll ]
 image: "https://mohamadrido.com/assets/images/personal.jpg"
 ---
+See [About]({{ site.baseurl }}/about)
 <br />
