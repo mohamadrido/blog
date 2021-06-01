@@ -1,5 +1,6 @@
 ---
 title: "Cards Jekyll Theme V2"
+published: false
 date: 2016-10-08
 category: [ Themes ]
 tags: [ jekyll ]
