@@ -4,9 +4,9 @@ hidden: true
 date: 2016-10-10
 category: [ Themes ]
 tags: [ jekyll ]
-image: "https://mohamadrido.com/assets/images/personal.jpg"
+image: "https://mohamadrido.com/assets/personal-jekyll-theme.png"
 ---
-## Features
+Features:
    - Responsive design
    - Responsive image full page
    - Clean homepage three cards post
@@ -20,4 +20,7 @@ image: "https://mohamadrido.com/assets/images/personal.jpg"
    - Google adsense support
    - Cookie notification
 <br />
-<a href="https://mohamadrido.com">Live Demo</a>
+Author: Mohamad Rido
+License: MIT License
+<a href="https://mohamadrido.com">Live Demo</a> 
+<a href="https://github.com/mohamadrido/personal-jekyll-theme">Fork/Download</a>
