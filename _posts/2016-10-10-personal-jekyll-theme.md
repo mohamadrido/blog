@@ -6,4 +6,18 @@ category: [ Themes ]
 tags: [ jekyll ]
 image: "https://mohamadrido.com/assets/images/personal.jpg"
 ---
+## Features
+   - Responsive design
+   - Responsive image full page
+   - Clean homepage three cards post
+   - Related cards post from sub-categories
+   - Navigation post
+   - Pagination post
+   - 404 not found
+   - SEO tag
+   - robots.txt
+   - ads.txt
+   - Google adsense support
+   - Cookie notification
 <br />
+<a href="https://mohamadrido.com">Live Demo</a>
