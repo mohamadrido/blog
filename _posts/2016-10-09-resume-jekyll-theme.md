@@ -1,5 +1,6 @@
 ---
 title: "Resume Jekyll Theme"
+published: false
 date: 2016-10-09
 category: [ Themes ]
 tags: [ jekyll ]
