@@ -8,6 +8,7 @@ image: "https://mohamadrido.com/assets/personal-jekyll-theme.png"
 ---
 <button style="  border: none; outline: 0; display: inline-block; padding: 10px 25px; color: #fff; background-color: #dc143c; text-align: center; cursor: pointer; border-radius: 5px;"><a style="text-decoration: none; color: #fff;" href="https://mohamadrido.com">Live Demo</a></button>
 <button style="  border: none; outline: 0; display: inline-block; padding: 10px 25px; color: #fff; background-color: #008080; text-align: center; cursor: pointer; border-radius: 5px;"><a style="text-decoration: none; color: #fff;" href="https://github.com/mohamadrido/personal-jekyll-theme">Download</a></button>
+<br/>
 Author: Mohamad Rido<br />
 License: MIT License<br />
 Features:
