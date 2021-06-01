@@ -6,6 +6,11 @@ category: [ Themes ]
 tags: [ jekyll ]
 image: "https://mohamadrido.com/assets/personal-jekyll-theme.png"
 ---
+Author: Mohamad Rido<br />
+License: MIT License<br />
+<a href="https://mohamadrido.com">Live Demo</a><br />
+<a href="https://github.com/mohamadrido/personal-jekyll-theme">Fork/Download</a><br />
+<button class="hero-image"><a style="text-decoration: none; color: #fff;" href="https://publicdomainmodels.com/">BROWSE MODELS</a></button>
 Features:
    - Responsive design
    - Responsive image full page
@@ -20,7 +25,3 @@ Features:
    - Google adsense support
    - Cookie notification
 <br />
-Author: Mohamad Rido
-License: MIT License
-<a href="https://mohamadrido.com">Live Demo</a> 
-<a href="https://github.com/mohamadrido/personal-jekyll-theme">Fork/Download</a>
