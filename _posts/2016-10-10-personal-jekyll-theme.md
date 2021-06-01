@@ -10,7 +10,7 @@ Author: Mohamad Rido<br />
 License: MIT License<br />
 <a href="https://mohamadrido.com">Live Demo</a><br />
 <a href="https://github.com/mohamadrido/personal-jekyll-theme">Fork/Download</a><br />
-<button style="background: teal; border-radius: 5px;"><a style="text-decoration: none; color: #fff;" href="https://publicdomainmodels.com/">BROWSE MODELS</a></button>
+<button style="  border: none; outline: 0; display: inline-block; padding: 10px 25px; color: #fff; background-color: #dc143c; text-align: center; cursor: pointer; border-radius: 5px;"><a style="text-decoration: none; color: #fff;" href="https://publicdomainmodels.com/">BROWSE MODELS</a></button>
 Features:
    - Responsive design
    - Responsive image full page
