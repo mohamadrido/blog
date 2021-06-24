@@ -101,8 +101,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 <div class="container">
 <h3 style="text-align: center;">THEMES</h3>
 <p style="text-align: center; font-size: 16px;">Free responsive static website themes for personal & company profile.</p>
-
-{% for post in site.tags.jekyll-theme %}
+{% for post in site.tags.jekyll %}
   <div class="column" style="border-color: none;">
     <div class="card" style="border-color: #fff;">
           <a style="text-decoration: none;" href="{{ site.baseurl }}{{ post.url }}">
@@ -114,31 +113,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     </div>
   </div>
 {% endfor %}
-
-  <div class="column" style="border-color: none;">
-    <div class="card" style="border-color: #fff;">
-    <a style="text-decoration: none;" href="https://mohamadrido.com/personal-jekyll-theme">
-    <img style="width: 100%; border-radius: 5px;" src="https://mohamadrido.com/assets/personal-jekyll-theme.png">
-    <h3 style="font-size: 1rem; font-weight: 400; color: #333;">Personal Jekyll Theme</h3>
-    </a>
-    </div>
-  </div>
-  <div class="column" style="border-color: none;">
-    <div class="card" style="border-color: #fff;">
-    <a style="text-decoration: none;" href="https://mohamadrido.com/resume-jekyll-theme">
-    <img style="width: 100%; border-radius: 5px;" src="https://mohamadrido.com/assets/resume-jekyll-theme.png">
-    <h3 style="font-size: 1rem; font-weight: 400; color: #333;">Resume Jekyll Theme</h3>
-    </a>
-    </div>
-  </div>
-  <div class="column" style="border-color: none;">
-    <div class="card" style="border-color: #fff;">
-    <a style="text-decoration: none;" href="https://mohamadrido.com/cards-jekyll-theme-v2">
-    <img style="width: 100%; border-radius: 5px;" src="https://mohamadrido.com/assets/cards-jekyll-theme-v2.png">
-    <h3 style="font-size: 1rem; font-weight: 400; color: #333;">Cards Jekyll Theme V2</h3>
-    </a>
-    </div>
-  </div>
 </div>
 <div class="container">
 <h3 style="text-align: center;">GAMES</h3>
