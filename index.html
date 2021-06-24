@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   {% for post in paginator.posts %}
     <div class="col-sm-4">
       <a style="text-decoration: none; " href="{{site.baseurl}}{{post.url}}">
-      <img style="width: 100%; border-radius: 5px;" src="{{post.image}}">
+      <img alt="{{ post.title }}" title="{{ post.title }}" style="width: 100%; border-radius: 5px;" src="{{post.image}}">
       <h3 style="font-size: 1rem; font-weight: 400; color: #333;">{{ post.title }}</h3>
       </a>
     </div>
