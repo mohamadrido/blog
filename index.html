@@ -102,13 +102,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 <h3 style="text-align: center;">THEMES</h3>
 <p style="text-align: center; font-size: 16px;">Free responsive static website themes for personal & company profile.</p>
 
-{% for post in site.tags.themes %}
-  <div class="column">
-    <div class="card">
-          <a href="{{ site.baseurl }}{{ post.url }}">
+{% for post in site.tags.Themes %}
+  <div class="column" style="border-color: none;">
+    <div class="card" style="border-color: #fff;">
+          <a style="text-decoration: none;" href="{{ site.baseurl }}{{ post.url }}">
               <div class="rel">
-                <img alt="Free 3D {{ page.title }}" width="100%" title="Free 3D {{ page.title }}" src="{{post.image}}">
-                <h3>{{ post.title }}</h3>
+                <img alt="Free 3D {{ page.title }}" style="width: 100%; border-radius: 5px;" title="Free 3D {{ page.title }}" src="{{post.image}}">
+                <h3 style="font-size: 1rem; font-weight: 400; color: #333;">{{ post.title }}</h3>
               </div>
           </a>
     </div>
