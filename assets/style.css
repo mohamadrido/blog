@@ -9,12 +9,6 @@ body {
   font-style:normal;
   margin: 0 auto;
 }
-
-.dark-mode {
-  background-color: #333;
-  color: #fff;
-}
-
 article h1, article h2, article h3, article h4, article h5, article h6 {
     margin-bottom:1rem;
 }
