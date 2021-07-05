@@ -28,7 +28,6 @@ layout: page
 </div>
 <br/>
 <!-- Related post -->
-<div class="container">
   {% assign maxRelated = 4 %}
   {% assign minCommonTags =  1 %}
   {% assign maxRelatedCounter = 0 %}
@@ -51,7 +50,6 @@ layout: page
     {% endfor %}
 
     {% if sameTagCount >= minCommonTags %}
-<div class="row">
   <div class="column" style="border-color: none;">
     <div class="card" style="border-color: #fff;">
     <a style="text-decoration: none;" href="{{site.baseurl}}{{post.url}}">
@@ -60,7 +58,6 @@ layout: page
     </a>
     </div>
   </div>
-</div>
 
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
@@ -68,5 +65,4 @@ layout: page
       {% endif %}
     {% endif %}
   {% endfor %}
-</div>
 </article>
