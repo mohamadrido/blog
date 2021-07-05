@@ -62,12 +62,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 <h3 style="text-align: center;">ARTICLES</h3>
 <p style="text-align: center; font-size: 16px;">About references and my life experiences.</p>
   {% for post in paginator.posts %}
-    <div class="col-sm-4">
+    <!--div class="col-sm-4"-->
+  <div class="column" style="border-color: none;">
+    <div class="card" style="border-color: #fff;">
       <a style="text-decoration: none; " href="{{site.baseurl}}{{post.url}}">
       <img alt="{{ post.title }}" title="{{ post.title }}" style="width: 100%; border-radius: 5px;" src="{{post.image}}">
       <h3 style="font-size: 1rem; font-weight: 400; color: #333;">{{ post.title }}</h3>
       </a>
+    <!--/div-->
     </div>
+  </div>
   {% endfor %}
 <br/>
 {% if paginator.previous_page %}
