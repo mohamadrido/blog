@@ -61,7 +61,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 <div class="container">
 <h3 style="text-align: center;">ARTICLES</h3>
 <p style="text-align: center; font-size: 16px;">About references and my life experiences.</p>
-  <div class="row">
   {% for post in paginator.posts %}
     <div class="col-sm-4">
       <a style="text-decoration: none; " href="{{site.baseurl}}{{post.url}}">
@@ -70,7 +69,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
       </a>
     </div>
   {% endfor %}
-  </div>
 <br/>
 {% if paginator.previous_page %}
 {% if paginator.previous_page == 1 %}
