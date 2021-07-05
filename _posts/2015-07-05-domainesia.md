@@ -1,7 +1,6 @@
 ---
 title: "Cloud Web Hosting Indonesia"
 hidden: true
-date: 2015-07-05
 category: [ Affiliate ]
 tags: [ ref ]
 image: "https://static.domainesia.com/assets/images/afiliasi/2.0/300x250/banner-1.svg"
