@@ -61,6 +61,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 <div class="container">
 <h3 style="text-align: center;">ARTICLES</h3>
 <p style="text-align: center; font-size: 16px;">About references and my life experiences.</p>
+    <div class="row">
   {% for post in paginator.posts %}
     <!--div class="col-sm-4"-->
   <div class="column" style="border-color: none;">
@@ -73,6 +74,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     </div>
   </div>
   {% endfor %}
+     </div>
 <br/>
 {% if paginator.previous_page %}
 {% if paginator.previous_page == 1 %}
@@ -103,6 +105,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 <div class="container">
 <h3 style="text-align: center;">THEMES</h3>
 <p style="text-align: center; font-size: 16px;">Free responsive static website themes for personal & company profile.</p>
+    <div class="row">
 {% for post in site.tags.jekyll %}
   <div class="column" style="border-color: none;">
     <div class="card" style="border-color: #fff;">
@@ -115,6 +118,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     </div>
   </div>
 {% endfor %}
+    </div>
 </div>
 <!--div class="container">
 <h3 style="text-align: center;">GAMES</h3>
@@ -123,6 +127,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 <div class="container">
 <h3 style="text-align: center;">AFFILIATES</h3>
 <p style="text-align: center; font-size: 16px;">Lots of discounts and great offers.</p>
+    <div class="row">
 {% for post in site.tags.ref %}
   <div class="column" style="border-color: none;">
     <div class="card" style="border-color: #fff;">
@@ -135,6 +140,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     </div>
   </div>
 {% endfor %}
+    </div>
 </div>
     <!--div class="row">
   <div class="column" style="border-color: none;">
@@ -158,3 +164,4 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   </div>
     </div>
 </div-->
+<div class="row">
