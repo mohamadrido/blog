@@ -5,7 +5,7 @@ category: [ Software ]
 tags: [ system ]
 image: /assets/images/debian-10-buster-gnome.jpg
 ---
-Setelah melakukan banyak pertimbangan dari beberapa distro linux, akhirnya saya memilih untuk menggunakan OS Debian 10 Buster di semua notebook 32-bit dan 64-bit pada Hardisk utamanya. Meskipun lebih sering menggunakan Tails OS untuk keperluan akses internet, pembuatan model 3D hingga rendering. Ketika proses install OS muncul The missing firmware files are: iwlwifi-6000-4.ucode di versi amd64 dan The missing firmware files are: brcm/bcm43xx-0.fw di versi i386. Pada tampilan pilih "No" untuk lanjut, atau intinya tetap jalankan install debian sampai selesai tanpa koneksi internet dan wifi yang tidak terdeteksi.<br />
+Setelah melakukan banyak pertimbangan dari beberapa distro linux, akhirnya saya memilih untuk menggunakan OS Debian 10 Buster di semua notebook 32-bit dan 64-bit pada Hardisk utamanya. Meskipun lebih sering menggunakan Tails OS untuk keperluan akses internet, pembuatan model 3D hingga rendering. Ketika proses install OS muncul <i>The missing firmware files are: iwlwifi-6000-4.ucode</i> di versi amd64 dan <i>The missing firmware files are: brcm/bcm43xx-0.fw</i> di versi i386. Pada tampilan pilih "No" untuk lanjut, atau intinya tetap jalankan install debian sampai selesai tanpa koneksi internet dan wifi yang tidak terdeteksi.<br />
 <img class="img-post" src="{{site.baseurl}}/assets/images/img-20210810-152918.jpg">
 <br />
 Berikut ini langkah-langkah setelah install selesai, buka Terminal dan ketik:<br />
@@ -14,7 +14,7 @@ su<br />
 cd<br />
 nautilus<br />
 <br />
-Cari file yang berada di Filesystem root atau Computer/etc/apt/sources.list dengan klik kanan buka dengan TextEditor. Ganti semua isinya dengan di bawah ini dan Save:<br />
+Cari file yang berada di <i>Filesystem root</i> atau <i>Computer/etc/apt/sources.list</i> dengan klik kanan buka dengan <i>TextEditor</i>. Ganti semua isinya dengan di bawah ini dan Save:<br />
 <br />
 <i>deb http://deb.debian.org/debian buster main contrib non-free<br />
 deb-src http://deb.debian.org/debian buster main contrib non-free<br />
