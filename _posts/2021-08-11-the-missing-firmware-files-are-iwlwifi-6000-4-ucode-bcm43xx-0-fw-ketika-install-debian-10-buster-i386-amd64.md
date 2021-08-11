@@ -16,7 +16,7 @@ nautilus<br />
 <br />
 Cari file yang berada di Filesystem root atau Computer/etc/apt/sources.list dengan klik kanan buka dengan TextEditor. Ganti semua isinya dengan di bawah ini dan Save:<br />
 <br />
-deb http://deb.debian.org/debian buster main contrib non-free<br />
+<i>deb http://deb.debian.org/debian buster main contrib non-free<br />
 deb-src http://deb.debian.org/debian buster main contrib non-free<br />
 <br />
 deb http://deb.debian.org/debian-security/ buster/updates main contrib non-free<br />
@@ -26,7 +26,7 @@ deb http://deb.debian.org/debian buster-updates main contrib non-free<br />
 deb-src http://deb.debian.org/debian buster-updates main contrib non-free<br />
 <br />
 deb http://deb.debian.org/debian buster-backports main contrib non-free<br />
-deb-src http://deb.debian.org/debian buster-backports main contrib non-free<br />
+deb-src http://deb.debian.org/debian buster-backports main contrib non-free<br /><i/>
 <br />
 Sampai di sini pastikan terhubung dengan koneksi internet, jika tidak ada koneksi LAN/Wired Ethernet bisa menggunakan USB Tethering smartphone. Setelah terhubung ke internet buka Terminal lagi dan ketik:<br />
 <br />
