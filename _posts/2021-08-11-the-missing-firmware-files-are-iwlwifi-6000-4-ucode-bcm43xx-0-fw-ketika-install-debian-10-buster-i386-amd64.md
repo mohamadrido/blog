@@ -26,7 +26,7 @@ deb http://deb.debian.org/debian buster-updates main contrib non-free<br />
 deb-src http://deb.debian.org/debian buster-updates main contrib non-free<br />
 <br />
 deb http://deb.debian.org/debian buster-backports main contrib non-free<br />
-deb-src http://deb.debian.org/debian buster-backports main contrib non-free<br /><i/>
+deb-src http://deb.debian.org/debian buster-backports main contrib non-free<br /></i>
 <br />
 Sampai di sini pastikan terhubung dengan koneksi internet, jika tidak ada koneksi LAN/Wired Ethernet bisa menggunakan USB Tethering smartphone. Setelah terhubung ke internet buka Terminal lagi dan ketik:<br />
 <br />
