@@ -6,7 +6,8 @@ tags: [ system ]
 image: /assets/images/debian-10-buster-gnome.jpg
 ---
 Setelah melakukan banyak pertimbangan dari beberapa distro linux, akhirnya saya memilih untuk menggunakan OS Debian 10 Buster di semua notebook 32-bit dan 64-bit pada Hardisk utamanya. Meskipun lebih sering menggunakan Tails OS untuk keperluan akses internet, pembuatan model 3D hingga rendering. Ketika proses install OS muncul <i>The missing firmware files are: iwlwifi-6000-4.ucode</i> di versi amd64 dan <i>The missing firmware files are: brcm/bcm43xx-0.fw</i> di versi i386. Pada tampilan pilih "No" untuk lanjut, atau intinya tetap jalankan install debian sampai selesai tanpa koneksi internet dan wifi yang tidak terdeteksi.<br />
-<img class="img-post" src="{{site.baseurl}}/assets/images/img-20210810-152918.jpg">
+<br />
+<img class="img-post" src="{{site.baseurl}}/assets/images/img-20210810-152918.jpg"><br />
 <br />
 Berikut ini langkah-langkah setelah install selesai, buka Terminal dan ketik:<br />
 <br />
@@ -33,6 +34,8 @@ Sampai di sini pastikan terhubung dengan koneksi internet, jika tidak ada koneks
 sudo apt update<br />
 sudo apt upgrade<br />
 sudo dmesg<br />
+<br />
+Maksud dari <i>sudo dmesg</i> untuk mengetahui firmware yang belum di install, bisanya ditandai dengan tulisan berwarna merah. Perintah ini bisa langsung di skip saja jika sudah mengetahui firmware yang akan di install.<br />
 <br />
 Untuk instalasi di PC amd64 ketik:<br />
 <br />
