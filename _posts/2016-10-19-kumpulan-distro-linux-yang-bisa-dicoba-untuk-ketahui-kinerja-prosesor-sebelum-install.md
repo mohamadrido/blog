@@ -23,7 +23,7 @@ Linux <a style="color: #008eff;" href="https://ubuntu.com/">Ubuntu</a> merupakan
 <br />
 <b>Fedora</b><br />
 <br />
-<i>Updated 17 Agustus 2021</i>: Linux <a style="color: #008eff;" href="https://getfedora.org/">Fedora</a> ini sudah versi ke 34 dengan gnome 40, perihal kinerja prosesor kurang tahu karena sampai hari ini baru fedora yang menggunakan gnome 40 dari distro linux lainnya. Pertama coba cukup menarik, tapi untuk saat ini sementara masih menggunakan distro linux dengan gnome 3.30.2 untuk keperluan sehari-hari. Tapi jika tertarik bisa download mencobanya, karena ada pilihan fitur untuk Try Fedora atau langsung Install to Hard Drive.<br />
+<i>Updated 17 Agustus 2021</i>: Linux <a style="color: #008eff;" href="https://getfedora.org/">Fedora</a> ini sudah versi ke 34 dengan gnome 40, perihal kinerja prosesor kurang tahu karena sampai hari ini baru fedora yang menggunakan gnome 40 dari distro linux lainnya. Pertama coba cukup menarik, tapi untuk saat ini sementara masih menggunakan distro linux dengan gnome 3.30.2 untuk keperluan sehari-hari. Tapi jika kamu merasa tertarik bisa download untuk mencobanya, karena ada pilihan fitur untuk Try Fedora atau langsung Install to Hard Drive.<br />
 <br />
 <img class="img-post" src="{{site.baseurl}}/assets/images/fedora-live-cd-start.png">
 <br />
