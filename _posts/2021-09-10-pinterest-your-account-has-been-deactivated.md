@@ -22,3 +22,14 @@ Link di atas awalnya dari sini; <a style="color: #008eff;" href="https://help.pi
 Pada form tersebut saya isikan data sesuai yang ada, mulai dari nama lengkap saya (bukan nama akun), username akun yang di suspend, email akun login (pastikan masih bisa login/akses ke email). Kemudian mengisi penyebab akun disuspend (di sini saya copy-paste notif pada gambar paling atas dan deskripsinya). Terus ada juga form untuk input bukti suspend (gambar/video), terus saya masukan contoh screenshot gambar paling atas. Setelah semuanya selesai sampai tahap akhir bisa langsung klik kirim. Nantinya di email akan ada respon balasan yang isinya untuk menunggu.<br />
 <br />
 Prosesnya tidak sampai menunggu lama (berhari-hari). Saya ajukan jam setengah lima sore, jam sepuluh malam lebih sedikit sudah ada notif pada email bahwa akun sudah diaktivasi ulang.<br />
+<br />
+Berikut ini screenshot email dari painterest:<br />
+<br />
+<img class="img-post" src="{{site.baseurl}}/assets/images/your-account-has-been-suspended.jpg"><br />
+<i>Email: Akun sudah ditangguhkan.</i><br />
+<br />
+<img class="img-post" src="{{site.baseurl}}/assets/images/re-your-account-has-been-deactivated.jpg"><br />
+<i>Email: Respon balasan setelah proses ajukan aktifasi ulang</i><br />
+<br />
+<img class="img-post" src="{{site.baseurl}}/assets/images/we-reactivated-your-account.jpg"><br />
+<i>Email: Akun sudah diaktifasi ulang</i><br />
