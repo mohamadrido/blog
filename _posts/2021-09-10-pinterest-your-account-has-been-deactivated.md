@@ -1,5 +1,5 @@
 ---
-title: "Fix Pinterest: Your account has been deactivated"
+title: "Fix Pinterest: Your account has been deactivated/Your account has been suspended. We've sent you an email with more info, including how to get in touch."
 date: 2021-09-10
 category: [ Internet ]
 tags: [ social ]
