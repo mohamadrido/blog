@@ -8,16 +8,16 @@
 <meta name="minute-prompt" content="minutes ago">
 <meta name="justnow-prompt" content="just now">
 <meta name="generator" content="Jekyll v4.2.1" />
-<title>Mohamad Rido's Blog</title>
-<meta itemprop="description" name="description" content="About how to & my experiences" />
-<meta property="og:locale" content="en">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Mohamad Rido's Blog">
+<title>{% if page.tag or page.title %}{% if page.tag %}{{ page.tag | escape }}{% else %}{{ page.title | escape }}{% endif %} - {% endif %}{% if paginator and paginator.page and paginator.total_pages > 1 and paginator.page > 1 %}Page {{ paginator.page }} of {{ paginator.total_pages }} - {% endif %} {{ site.description | escape }}</title>
+<meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+<meta property="og:locale" content="id">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:url" content="https://blog.mohamadrido.com/">
 <meta property="og:site_name" content="Mohamad Rido's Blog">
 <meta property="article:publisher" content="http://www.facebook.com/blogrido" />
 <meta property="article:author" content="https://www.facebook.com/blogrido" />
-<meta property="og:description" content="About how to & my experiences">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta content="Mohamad Rido" name="Author">
 <meta content="https://www.facebook.com/blogrido" property="website:author">
 <meta content="Mohamad Rido" name="twitter:site">
