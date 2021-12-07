@@ -1,0 +1,21 @@
+---
+layout: page
+title: Categories
+---
+<div class="page-container">
+{% for models in site.categories %}
+<h2>{{models[0] | capitalize}}</h2>
+<div class="page-row">
+{% for post in models[1] %}
+  <div class="page-column" style="border-color: none;">
+    <div class="card" style="border-color: #fff;">
+    <a style="text-decoration: none;" href="{{site.baseurl}}{{post.url}}">
+    <img alt="{{ page.title }}" title="{{ page.title }}" src="{{post.image}}">
+    <h3 style="font-size: 1rem; font-weight: 400; color: #333;">{{ post.title }}</h3>
+    </a>
+    </div>
+  </div>
+{% endfor %}
+</div>
+{% endfor %}
+</div>
