@@ -1,2 +1,2 @@
 # blog-jekyll-theme
-Author &amp; 3D Modeler
+About how to and my experiences
