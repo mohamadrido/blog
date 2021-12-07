@@ -1,7 +1,7 @@
-name: 'Mohamad Rido'
-description: 'Author & 3D Modeler'
+name: 'Blog | Mohamad Rido'
+description: 'About how to & my experiences'
 author: 'Mohamad Rido'
-email: 'mohamad.rido@yandex.com'
+email: 'mohamadrido@mail.ru'
 permalink: /:title
 plugin:
   - jekyll-feed
