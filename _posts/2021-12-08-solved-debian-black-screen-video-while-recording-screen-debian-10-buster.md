@@ -15,7 +15,7 @@ Kali ini saya menggunakan nautilus untuk mengedit "<i>/etc/gdm3/daemon.conf</i>"
 <br/>
 su<br/>
 password:<br/>
-cd
+cd<br/>
 nautilus<br/>
 <br />
 Setelah folder nautilus terbuka, dari Filesystem root masuk dan cari file /etc/gdm3/daemon.conf kemudian klik kanan pilih Open With TextEditor. Selanjutnya carilah kode seperti di bawah ini:<br/>
