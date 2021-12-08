@@ -52,8 +52,8 @@ layout: page
     {% if sameTagCount >= minCommonTags %}
   <div class="page-column" style="border-color: none;">
     <div class="card" style="border-color: #fff;">
-    <a style="text-decoration: none;" href="{{site.baseurl}}{{post.url}}">
-    <img alt="{{ page.title }}" title="{{ page.title }}" src="{{post.image}}">
+    <a alt="{{ post.title }}" title="{{ post.title }}" style="text-decoration: none;" href="{{site.baseurl}}{{post.url}}">
+    <img alt="{{ post.title }}" title="{{ post.title }}" src="{{post.image}}">
     <h3 style="font-size: 1rem; font-weight: 400; color: #333;">{{ post.title }}</h3>
     </a>
     </div>
