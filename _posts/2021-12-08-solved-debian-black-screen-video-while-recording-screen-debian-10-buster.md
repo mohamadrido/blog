@@ -19,6 +19,7 @@ cd
 nautilus<br/>
 <br />
 Setelah folder nautilus terbuka, dari Filesystem root masuk dan cari file /etc/gdm3/daemon.conf kemudian klik kanan pilih Open With TextEditor. Selanjutnya carilah kode seperti di bawah ini:<br/>
+<br/>
 <span style="color:red;">#</span>WaylandEnable=false<br/>
 <br/>
 Silahkan hapus tanda # yang berwarna merah, kemudian klik Save dan Restart.
