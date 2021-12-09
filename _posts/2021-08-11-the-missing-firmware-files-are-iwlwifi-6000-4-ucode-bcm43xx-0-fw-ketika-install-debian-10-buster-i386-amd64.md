@@ -1,5 +1,5 @@
 ---
-title: "The missing firmware files are: iwlwifi-6000-4.ucode/bcm43xx-0.fw Ketika Install Debian 10 Buster i386/amd64"
+title: "The missing firmware files are: iwlwifi-6000-4.ucode/bcm43xx-0.fw Debian 10 Buster i386/amd64"
 date: 2021-08-11
 category: [ Software ]
 tags: [ system ]
