@@ -1,261 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="day-prompt" content="days ago">
-<meta name="hour-prompt" content="hours ago">
-<meta name="minute-prompt" content="minutes ago">
-<meta name="justnow-prompt" content="just now">
-<meta name="generator" content="Jekyll v4.2.1" />
-<title>Mohamad Rido - Author & 3D Modeler</title>
-<meta itemprop="description" name="description" content="Author & 3D Modeler" />
-<meta property="og:locale" content="en">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Mohamad Rido">
-<meta property="og:url" content="https://mohamadrido.com/">
-<meta property="og:site_name" content="Mohamad Rido">
-<meta property="article:publisher" content="http://www.facebook.com/blogrido" />
-<meta property="article:author" content="https://www.facebook.com/blogrido" />
-<meta property="og:description" content="Author & 3D Modeler">
-<meta content="Mohamad Rido" name="Author">
-<meta content="https://www.facebook.com/blogrido" property="website:author">
-<meta content="Mohamad Rido" name="twitter:site">
-<meta content="summary_large_image" name="twitter:card">
-<meta content="@mohamadrido_" name="twitter:creator">
-<link rel="canonical" href="https://mohamadrido.com/">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
-<link rel="shortcut icon" href="assets/images/favicons/favicon.png" type="image/x-icon">
-<link href="assets/images/favicons/favicon-192x192.png" height="192" rel="icon" sizes="192x192"/>
-<meta content="assets/images/favicons/favicon-144x144.png" height="144" name="msapplication-TileImage"/>
-<link rel="manifest" href="/assets/images/favicons/site.webmanifest">
-<link rel="shortcut icon" href="/assets/images/favicons/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="Mohamad Rido">
-<meta name="application-name" content="Mohamad Rido">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="msapplication-config" content="/assets/images/favicons/browserconfig.xml">
-<meta name="theme-color" content="#f1f1f1">
-<link rel="stylesheet" href="/assets/style.css">
-<link rel="stylesheet" href="/assets/parallax.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-</head>
-<style>
-/* Full height image header */
-.bgimg-1 {background-position: center; background-size: cover; background-image: url("https://www.w3schools.com/w3images/mac.jpg"); min-height: 100%;}
-.bg-color {background-color: transparent; color: #333;}
-.bg-color1 {background-color: #009688; color: #fff;}
-.bg-color2 {background-color: #f44336; color: #fff;}
-.mySlides {display: none}
-/* Search */
-#search-container {max-width: 40em; padding: 1em; margin: 1em auto; border: 0px solid lightgrey;}
-#search-input {display: inline-block; padding: .5em; width: 100%; font-size: 0.8em; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
-/* Style the counter cards */
-.card {padding: 10px 15px; text-align: left; background-color: #fff; color: #333;}
-</style>
-
-<body>
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="https://mohamadrido.com" class="w3-bar-item w3-button"><b>Mohamad Rido</b></a>
-    <a href="/support" class="w3-bar-item w3-button w3-hide-small">Support</a>
-    <a href="https://mohamadrido.com/categories" class="w3-bar-item w3-button w3-hide-small">Categories</a>
-    <a href="/license" class="w3-bar-item w3-button w3-hide-small">License</a>
-    <a class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red" onclick="document.getElementById('searchModal').style.display='block'">
-      <i class="fa fa-search"></i>
-    </a>
+---
+layout: default
+title: Blog | Mohamad Rido
+---
+<div class="page-container">
+  <div class="page-row">
+  {% for post in paginator.posts %}
+  <div class="page-column" style="border-color: none;">
+    <div class="card" style="border-color: #fff;">
+      <a style="text-decoration: none; " href="{{site.baseurl}}{{post.url}}">
+      <img alt="{{ post.title }}" title="{{ post.title }}" style="width: 100%; border-radius: 5px;" src="{{post.image}}">
+      <h3 style="font-size: 1rem; font-weight: 400; color: #333;">{{ post.title }}</h3>
+      </a>
+    </div>
   </div>
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="/about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="https://blog.mohamadrido.com" class="w3-bar-item w3-button" onclick="toggleFunction()">BLOG</a>
-    <a href="/contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a class="w3-bar-item w3-button" onclick="document.getElementById('searchModal').style.display='block'">SEARCH</a>
+  {% endfor %}
   </div>
+<br/>
+{% if paginator.previous_page %}
+{% if paginator.previous_page == 1 %}
+<a style="text-decoration: none; padding: 10px;" href="{{site.baseurl}}/{{ include.basepath }}" title="Previous Page"><!--svg height='24' viewBox='0 0 24 24' width='24'><path d='M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z' color='#555'/></svg--><i class="fa fa-angle-left"></i> Prev</a>
+{% else %}
+<a style="text-decoration: none; padding: 10px;" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Previous Page"><!--svg height='24' viewBox='0 0 24 24' width='24'><path d='M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z' color='#555'/></svg--><i class="fa fa-angle-left"></i> Prev</a>
+{% endif %}
+{% endif %}
+<span> &nbsp; &nbsp; Page {{paginator.page}} of {{paginator.total_pages}} &nbsp; &nbsp; </span>
+{% if paginator.next_page %} 
+<a style="text-decoration: none; padding: 10px;" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Next Page">Next <i class="fa fa-angle-right"></i><!--svg height='24' viewBox='0 0 24 24' width='24'><path d='M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z' color='#555'/></svg--></a>
+{% endif %}
+<br/>
 </div>
-
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-display-left w3-text-white" style="padding:48px">
-    <span class="w3-jumbo w3-hide-small">Author &amp; 3D Modeler</span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Author &amp; 3D Modeler</span><br>
-    <span class="w3-large">Free CC0 3D Models &amp; Public Domain 3D Game Assets</span>
-    <p><a href="https://publicdomainmodels.com" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Browse Models</a></p>
-  </div> 
-  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-    <a href="https://facebook.com/publicdomainmodels"><i class="fab fa-facebook w3-hover-opacity"></i></a>
-    <a href="https://instagram.com/publicdomainmodels"><i class="fab fa-instagram w3-hover-opacity"></i></a>
-    <a href="https://pinterest.com/publicdomainmodels"><i class="fab fa-pinterest-p w3-hover-opacity"></i></a>
-    <a href="https://patreon.com/publicdomainmodels"><i class="fab fa-patreon w3-hover-opacity"></i></a>
-  </div>
-</header>
-
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide">PUBLIC ASSETS</h2>
-    <p class="w3-opacity"><i>Open source softwares & GNU/Linux operating system user.</i></p>
-    <p class="w3-justify">Work design focused on using <a href="https://opensource.org">Open Source</a> <i class="fab fa-osi"></i> softwares and <a href="https://www.gnu.org">GNU</a>/<a href="https://linux.org/">Linux</a> <i class="fab fa-linux"></i> operating system for privacy or anonimity of client information we are working on.
-     There are many considerations, we can not just to do for monthly or yearly subscription plans. </p>
-    <!--p class="w3-justify">Launched a public 3d models website in 2018, without credits or encrypted files. Available in <i>Blender</i> (.blend) formats and exported to <i>Collada</i> (.dae), <i>3D Studio</i> (.3ds), <i>Autodesk FBX</i> (.fbx), <i>Wavefront OBJ</i> (.obj, .mtl), <i>Stereolithography</i> (.stl).</p-->
-
-  </div>
-
-<!-- Promo Section - "We know design" -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px">
-  <div class="w3-row-padding">
-    <div class="w3-col m6">
-      <h3>Screencast</h3>
-      <p>Watch video about how to making 3d models without timelapse,<br>and download the 3d models for free <i class="fab fa-creative-commons-pd-alt"></i> <i class="fab fa-creative-commons-zero"></i>.</p>
-      <p><a href="https://youtube.com/blendfile" class="w3-button w3-black"><i class="fab fa-youtube"></i> Youtube</a></p>
-    </div>
-    <div class="w3-col m6">
-      <img class="w3-image w3-round-large" src="https://www.w3schools.com/w3images/phone_buildings.jpg" alt="Buildings" width="700" height="394">
-    </div>
-  </div>
-</div>
-
-  <!-- The Tour Section -->
-  <div class="w3-black" id="tour">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h2 class="w3-wide w3-center">WEBSITE CONCEPTS</h2>
-      <p class="w3-opacity w3-center"><i>Static website for personal blog and company profile.</i></p><br>
-
-      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-        <div class="w3-third w3-margin-bottom">
-          <img src="https://www.w3schools.com/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>Night Slider</b></p>
-            <p class="w3-opacity">Fri 27 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('sliderModal').style.display='block'">Show Details</button>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="https://www.w3schools.com/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>Time Parallax</b></p>
-            <p class="w3-opacity">Sat 28 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('parallaxModal').style.display='block'">Show Details</button>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="https://www.w3schools.com/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>Self Portofolio</b></p>
-            <p class="w3-opacity">Sun 29 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('portofolioModal').style.display='block'">Show Details</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Slider Modal -->
-  <div id="sliderModal" class="w3-modal">
-    <div class="w3-modal-content w3-animate-top w3-card-4">
-      <header class="w3-container bg-color w3-center w3-padding-32"> 
-        <span onclick="document.getElementById('sliderModal').style.display='none'" 
-       class="w3-button bg-color w3-xlarge w3-display-topright">×</span>
-        <h2 class="w3-wide"><i class="fa fa-code w3-margin-right"></i>Details</h2>
-      </header>
-      <div class="w3-container">
-        <p><label>Prize: $ 0,00 / FREE</label></p>
-        <p><label>Author: <a href="https://mohamadrido.com">Mohamad Rido</a></p>
-        <p><label>License: <a href="https://mit-license.org">MIT License</a></label></p>
-        <p><label>Feature: Responsive Design, Mobile Friendly, SEO Meta Tag, Related Posts, Fixed NavBar Scroll, Instant Search Box, Bootstrap 5.1.3, FontAwesome 5.15, Jekyll 4.2.1, GitHub Pages, jsDelivr, HTML5.</label></p>
-        <button class="w3-button w3-teal w3-padding-16 w3-section"><a href="https://mohamadrido.github.io/night-slider">LIVE DEMO</a></button>
-        <button class="w3-button w3-teal w3-padding-16 w3-section w3-center"><a href="https://github.com/mohamadrido/night-slider/fork">FORK ON <i class="fab fa-github"></i></a></button>
-        <br/>
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('sliderModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
-        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
-      </div>
-    </div>
-  </div>
- 
-  <!-- Parallax Modal -->
-  <div id="parallaxModal" class="w3-modal">
-    <div class="w3-modal-content w3-animate-top w3-card-4">
-      <header class="w3-container bg-color w3-center w3-padding-32"> 
-        <span onclick="document.getElementById('parallaxModal').style.display='none'" 
-       class="w3-button bg-color w3-xlarge w3-display-topright">×</span>
-        <h2 class="w3-wide"><i class="fa fa-code w3-margin-right"></i>Details</h2>
-      </header>
-      <div class="w3-container">
-        <p><label>Prize: $ 0,00 / FREE</label></p>
-        <p><label>Author: <a href="https://mohamadrido.com">Mohamad Rido</a></p>
-        <p><label>License: <a href="https://mit-license.org">MIT License</a></label></p>
-        <p><label>Feature: Responsive Design, Mobile Friendly, SEO Meta Tag, Related Posts, Fixed NavBar Scroll, Instant Search Box, Bootstrap 5.1.3, FontAwesome 5.15, Jekyll 4.2.1, GitHub Pages, jsDelivr, HTML5.</label></p>
-        <button class="w3-button w3-teal w3-padding-16 w3-section"><a href="https://mohamadrido.github.io/time-parallax">LIVE DEMO</a></button>
-        <button class="w3-button w3-teal w3-padding-16 w3-section w3-center"><a href="https://github.com/mohamadrido/time-parallax/fork">FORK ON <i class="fab fa-github"></i></a></button>
-        <br/>
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('parallaxModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
-        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portofolio Modal -->
-  <div id="portofolioModal" class="w3-modal">
-    <div class="w3-modal-content w3-animate-top w3-card-4">
-      <header class="w3-container bg-color w3-center w3-padding-32"> 
-        <span onclick="document.getElementById('portofolioModal').style.display='none'" 
-       class="w3-button bg-color w3-xlarge w3-display-topright">×</span>
-        <h2 class="w3-wide"><i class="fa fa-code w3-margin-right"></i>Details</h2>
-      </header>
-      <div class="w3-container">
-        <p><label>Prize: $ 0,00 / FREE</label></p>
-        <p><label>Author: <a href="https://mohamadrido.com">Mohamad Rido</a></p>
-        <p><label>License: <a href="https://mit-license.org">MIT License</a></label></p>
-        <p><label>Feature: Responsive Design, Mobile Friendly, SEO Meta Tag, Related Posts, Fixed NavBar Scroll, Instant Search Box, Bootstrap 5.1.3, FontAwesome 5.15, Jekyll 4.2.1, GitHub Pages, jsDelivr, HTML5.</label></p>
-        <button class="w3-button w3-teal w3-padding-16 w3-section"><a href="https://mohamadrido.github.io/self-portofolio">LIVE DEMO</a></button>
-        <button class="w3-button w3-teal w3-padding-16 w3-section w3-center"><a href="https://github.com/mohamadrido/self-portofolio/fork">FORK ON <i class="fab fa-github"></i></a></button>
-        <br/>
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('portofolioModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
-        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Search Modal -->
-  <div id="searchModal" class="w3-modal">
-    <div class="w3-modal-content w3-animate-top w3-card-4">
-      <header class="w3-container bg-color w3-center w3-padding-32"> 
-        <span onclick="document.getElementById('searchModal').style.display='none'" 
-       class="w3-button bg-color w3-xlarge w3-display-topright">×</span>
-        <h2 class="w3-wide"><i class="fa fa-search w3-margin-right"></i>Search</h2>
-      </header>
-      <div class="w3-container">
-        <div id="search-container">
-        <input type="text" id="search-input" placeholder="Search...">
-        </div>
-        <div class="column">
-        <div id="results-container" class="card">
-        <!-- Search results here -->
-        </div>
-        </div>
-      </div>
-<!-- End Page Content -->
-</div>
-<script src="/assets/slideshow.js"></script>
-<script src="/assets/navbar.js"></script>
-<script src="/assets/search.min.js"></script>
-<script>
-   window.simpleJekyllSearch = new SimpleJekyllSearch({
-     searchInput: document.getElementById('search-input'),
-     resultsContainer: document.getElementById('results-container'),
-     json: '/search.json',
-     searchResultTemplate: '<a href="{url}" title="{title}"><img style="border-radius: 5px; width: 100%;" src="https://mohamadrido.com/assets/images{url}.jpg"><h6>{title}</h6></a>',
-     noResultsText: 'No results found',
-     limit: 10,
-     fuzzy: false,
-     exclude: ['Welcome']
-      })
-</script>
-<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "dd0a4fbb43e7405ab716d99d14d1fb17"}'></script>
-</body>
-</html>
