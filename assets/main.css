@@ -1,5 +1,6 @@
+/* Top navbar toggle dropdown */
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
-*{box-sizing: border-box;},*:before,*:after{box-sizing:inherit}
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
@@ -234,3 +235,84 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .border-dark-grey,.hover-border-dark-grey:hover,.border-dark-gray,.hover-border-dark-gray:hover{border-color:#616161!important}
 .border-pale-red,.hover-border-pale-red:hover{border-color:#ffe7e7!important}.border-pale-green,.hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .border-pale-yellow,.hover-border-pale-yellow:hover{border-color:#ffffcc!important}.border-pale-blue,.hover-border-pale-blue:hover{border-color:#e7ffff!important}
+
+
+/* Parallax */
+html, body {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-style:normal;
+  font-size:12px;
+  background-color: #f1f1f1;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight:300;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.parallax [class*="bg__"] {
+  position: relative;
+  height: 300px;
+  text-indent: -9999px;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+}
+.parallax [class*="bg__"]:nth-child(2n) {
+  box-shadow: inset 0 0 1em #111;
+}
+.parallax .bg__foo, .parallax .bg__bazz {
+  height: 100vh;
+}
+.parallax .bg__foo {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax1.jpg);
+}
+.parallax .bg__bar {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax2.jpg);
+}
+.parallax .bg__baz {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax3.jpg);
+}
+.parallax .bg__bazz {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax1.jpg);
+}
+.parallax .bg__break {
+  box-shadow: inset 0 0 1em #111;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax1.jpg);
+}
+.parallax .capture {
+  float: right;
+  width: 200px;
+  padding: 1em;
+  margin: -1.5em 1em 0 0;
+  text-indent: 0;
+  background: rgba(243, 243, 243, 0.75);
+  color:rgb(20,20,20);
+}
+/* Full height image header */
+.bgimg-1 {background-position: center; background-size: cover; background-image: url("https://www.w3schools.com/w3images/mac.jpg"); min-height: 100%;}
+.bg-color {background-color: transparent; color: #333;}
+.bg-color1 {background-color: #009688; color: #fff;}
+.bg-color2 {background-color: #f44336; color: #fff;}
+.mySlides {display: none}
+/* Search */
+#search-container {max-width: 40em; padding: 1em; margin: 1em auto; border: 0px solid lightgrey;}
+#search-input {display: inline-block; padding: .5em; width: 100%; font-size: 0.8em; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+/* Float four columns side by side */
+.page-column {float: left; width: 33.33%; border-radius: 0px; margin: 0 auto;}
+/* Remove extra left and right margins, due to padding */
+.page-row {margin: 0 auto;}
+/* Clear floats after the columns */
+.page-row:after {content: ""; display: table; clear: both;}
+/* Style the counter cards */
+.page-card {padding: 10px 15px; text-align: left; background-color: transparent; color: #333;}
+img {border-radius: 5px; width: 100%;}
+/* Responsive columns */
+@media screen and (max-width: 900px) {.page-column {width: 50%; display: block;}}
+@media screen and (max-width: 600px) {.page-row {margin: 0 auto;} .page-column {width: 100%; display: block;}}
