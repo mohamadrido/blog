@@ -254,7 +254,7 @@ html {scrollbar-width: thin; scrollbar-color: #888 #f1f1f1;}
 /* Scrollbar Firefox */
 ::-webkit-scrollbar {width: 2px;height: 2px;}
 ::-webkit-scrollbar-track {background: #f1f1f1;}
-::-webkit-scrollbar-thumb {background: #888;border-radius: 12px;	margin: 0px auto;}
+::-webkit-scrollbar-thumb {background: #888;border-radius: 12px; margin: 0px auto;}
 ::-webkit-scrollbar-thumb:hover {background: #666;}
 ::-webkit-scrollbar-corner {background: red;}
 ::-webkit-scrollbar-track-piece {background: #f1f1f1;}
