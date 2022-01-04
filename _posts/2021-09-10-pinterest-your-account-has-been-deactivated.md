@@ -1,8 +1,8 @@
 ---
 title: "Fix Pinterest: Your account has been deactivated/suspended"
 date: 2021-09-10
-category: [ Internet ]
-tags: [ social ]
+category: [ Software ]
+tags: [ system ]
 image: /assets/images/pinterest-your-account-has-been-deactivated.jpg
 ---
 Pada judul dan gambar ilustrasi di atas merupakan masalah yang pernah saya alami pada salah satu akun pinterest yang saya kelola. Akun tersebut masih kosong, baru saya buat pada bulan Februari 2021 lalu dan belum saya isi apapun. Setelah beberapa bulan tepatnya bulan April terdapat notifikasi email yang isinya akun tersebut ditangguhkan. Hal tersebut saya abaikan karena belum sempat dan pada bulan Agustus saya login lagi terdapat notifikasi seperti gambar di atas.<br />
