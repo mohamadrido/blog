@@ -10,4 +10,4 @@ plugin:
   - jekyll-seo-tag
 markdown: kramdown
 highlighter: rouge
-paginate: 9
+paginate: 12
