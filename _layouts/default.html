@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="day-prompt" content="days ago">
+<meta name="hour-prompt" content="hours ago">
+<meta name="minute-prompt" content="minutes ago">
+<meta name="justnow-prompt" content="just now">
+<meta name="generator" content="Jekyll v4.2.1" />
+<title>{% if page.tag or page.title %}{% if page.tag %}{{ page.tag | escape }}{% else %}{{ page.title | escape }}{% endif %} - {% endif %}{% if paginator and paginator.page and paginator.total_pages > 1 and paginator.page > 1 %}Page {{ paginator.page }} of {{ paginator.total_pages }} - {% endif %} {{ site.name | escape }}</title>
+<meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+<meta property="og:locale" content="en">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:url" content="https://mohamadrido.com/">
+<meta property="og:site_name" content="Mohamad Rido">
+<meta property="article:publisher" content="http://www.facebook.com/blogrido" />
+<meta property="article:author" content="https://www.facebook.com/blogrido" />
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta content="Mohamad Rido" name="Author">
+<meta content="https://www.facebook.com/blogrido" property="website:author">
+<meta content="Mohamad Rido" name="twitter:site">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="@mohamadrido_" name="twitter:creator">
+<link rel="canonical" href="https://mohamadrido.com/">
+<link rel="apple-touch-icon" sizes="180x180" href="https://mohamadrido.com/assets/images/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://mohamadrido.com/assets/images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://mohamadrido.com/assets/images/favicons/favicon-16x16.png">
+<link rel="shortcut icon" href="https://mohamadrido.com/assets/images/favicons/favicon.png" type="image/x-icon">
+<link href="https://mohamadrido.com/assets/images/favicons/favicon-192x192.png" height="192" rel="icon" sizes="192x192"/>
+<meta content="https://mohamadrido.com/assets/images/favicons/favicon-144x144.png" height="144" name="msapplication-TileImage"/>
+<link rel="manifest" href="https://mohamadrido.com/assets/images/favicons/site.webmanifest">
+<link rel="shortcut icon" href="https://mohamadrido.com/assets/images/favicons/favicon.ico">
+<meta name="apple-mobile-web-app-title" content="Mohamad Rido">
+<meta name="application-name" content="Mohamad Rido">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="https://mohamadrido.com/assets/images/favicons/browserconfig.xml">
+<meta name="theme-color" content="#f1f1f1">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"-->
+<!--link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css"-->
+<link rel="stylesheet" href="https://mohamadrido.com/assets/main.css">
+<!--link rel="stylesheet" href="/assets/parallax.css"-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+<!--script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script-->
+</head>
+<body>
+<!-- Navbar (sit on top) -->
+<div class="top">
+  <div class="bar" id="myNavbar">
+    <a class="bar-item button hover-black hide-medium hide-large right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="https://mohamadrido.com" class="bar-item button"><b>Mohamad Rido</b></a>
+    <a href="/support" class="bar-item button hide-small">Support</a>
+    <a href="https://blog.mohamadrido.com/categories" class="bar-item button hide-small">Categories</a>
+    <a href="/license" class="bar-item button hide-small">License</a>
+    <a class="bar-item button hide-small right hover-red" onclick="document.getElementById('searchModal').style.display='block'">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+  <!-- Navbar on small screens -->
+  <div id="navBar" class="bar-block white hide hide-large hide-medium">
+    <a href="/about" class="bar-item button" onclick="toggleFunction()">ABOUT</a>
+    <a href="https://mohamadrido.com" class="bar-item button" onclick="toggleFunction()">HOME</a>
+    <a href="/contact" class="bar-item button" onclick="toggleFunction()">CONTACT</a>
+    <a class="bar-item button" onclick="document.getElementById('searchModal').style.display='block'">SEARCH</a>
+  </div>
+</div>
+{{ content }}
+  <!-- Search Modal -->
+  <div id="searchModal" class="modal">
+    <div class="modal-content animate-top card-4">
+      <header class="container bg-color center padding-32"> 
+        <span onclick="document.getElementById('searchModal').style.display='none'" 
+       class="button bg-color xlarge display-topright">×</span>
+        <h2 class="wide"><i class="fa fa-search margin-right"></i>Search</h2>
+      </header>
+      <div class="container">
+        <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search...">
+        </div>
+        <div class="column">
+        <div id="results-container" class="page-card">
+        <!-- Search results here -->
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- End Page Content -->
+<script src="https://mohamadrido.com/assets/slideshow.js"></script>
+<script src="https://mohamadrido.com/assets/navbar.js"></script>
+<script src="https://mohamadrido.com/assets/search.min.js"></script>
+<script>
+   window.simpleJekyllSearch = new SimpleJekyllSearch({
+     searchInput: document.getElementById('search-input'),
+     resultsContainer: document.getElementById('results-container'),
+     json: 'https://blog.mohamadrido.com/search.json',
+     searchResultTemplate: '<a href="https://blog.mohamadrido.com{url}" title="{title}"><img style="border-radius: 5px; width: 100%;" src="https://blog.mohamadrido.com/assets/images{url}.jpg"><h6>{title}</h6></a>',
+     noResultsText: 'No results found',
+     limit: 10,
+     fuzzy: false,
+     exclude: ['Welcome']
+      })
+</script>
+</body>
+</html>
