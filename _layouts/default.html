@@ -9,13 +9,13 @@
 <meta name="minute-prompt" content="minutes ago">
 <meta name="justnow-prompt" content="just now">
 <meta name="generator" content="Jekyll v4.2.1" />
-<title>{% if page.tag or page.title %}{% if page.tag %}{{ page.tag | escape }}{% else %}{{ page.title | escape }}{% endif %} - {% endif %}{% if paginator and paginator.page and paginator.total_pages > 1 and paginator.page > 1 %}Page {{ paginator.page }} of {{ paginator.total_pages }} - {% endif %} {{ site.description | escape }}</title>
+<title>{% if page.tag or page.title %}{% if page.tag %}{{ page.tag | escape }}{% else %}{{ page.title | escape }}{% endif %} - {% endif %}{% if paginator and paginator.page and paginator.total_pages > 1 and paginator.page > 1 %}Page {{ paginator.page }} of {{ paginator.total_pages }} - {% endif %} {{ site.name | escape }}</title>
 <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
-<meta property="og:locale" content="id">
-<meta property="og:type" content="article">
+<meta property="og:locale" content="en">
+<meta property="og:type" content="website">
 <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta property="og:url" content="https://blog.mohamadrido.com/">
-<meta property="og:site_name" content="Blog | Mohamad Rido">
+<meta property="og:url" content="https://mohamadrido.com/">
+<meta property="og:site_name" content="Mohamad Rido">
 <meta property="article:publisher" content="http://www.facebook.com/blogrido" />
 <meta property="article:author" content="https://www.facebook.com/blogrido" />
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
@@ -24,7 +24,7 @@
 <meta content="Mohamad Rido" name="twitter:site">
 <meta content="summary_large_image" name="twitter:card">
 <meta content="@mohamadrido_" name="twitter:creator">
-<link rel="canonical" href="https://blog.mohamadrido.com/">
+<link rel="canonical" href="https://mohamadrido.com/">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
@@ -33,8 +33,8 @@
 <meta content="assets/images/favicons/favicon-144x144.png" height="144" name="msapplication-TileImage"/>
 <link rel="manifest" href="/assets/images/favicons/site.webmanifest">
 <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="Blog | Mohamad Rido">
-<meta name="application-name" content="Blog | Mohamad Rido">
+<meta name="apple-mobile-web-app-title" content="Mohamad Rido">
+<meta name="application-name" content="Mohamad Rido">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-config" content="/assets/images/favicons/browserconfig.xml">
 <meta name="theme-color" content="#f1f1f1">
@@ -45,7 +45,7 @@
 <link rel="stylesheet" href="/assets/main.css">
 <!--link rel="stylesheet" href="/assets/parallax.css"-->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
- <!--script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script-->
+<!--script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script-->
 </head>
 <body>
 <!-- Navbar (sit on top) -->
@@ -54,31 +54,23 @@
     <a class="bar-item button hover-black hide-medium hide-large right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="https://mohamadrido.com" class="bar-item button" title="Home"><i class="fa fa-angle-left"></i></a>
-    <a href="https://blog.mohamadrido.com" class="bar-item button"><b>Blog</b> | <b>Mohamad Rido</b></a>
-    <a href="https://mohamadrido.com/support" class="bar-item button hide-small">Support</a>
+    <a href="https://mohamadrido.com" class="bar-item button"><b>Mohamad Rido</b></a>
+    <a href="/support" class="bar-item button hide-small">Support</a>
     <a href="https://blog.mohamadrido.com/categories" class="bar-item button hide-small">Categories</a>
-    <a href="https://mohamadrido.com/license" class="bar-item button hide-small">License</a>
+    <a href="/license" class="bar-item button hide-small">License</a>
     <a class="bar-item button hide-small right hover-red" onclick="document.getElementById('searchModal').style.display='block'">
       <i class="fa fa-search"></i>
     </a>
   </div>
   <!-- Navbar on small screens -->
   <div id="navBar" class="bar-block white hide hide-large hide-medium">
+    <a href="/about" class="bar-item button" onclick="toggleFunction()">ABOUT</a>
     <a href="https://mohamadrido.com" class="bar-item button" onclick="toggleFunction()">HOME</a>
-    <a href="https://mohamadrido.com/about" class="bar-item button" onclick="toggleFunction()">ABOUT</a>
-    <a href="https://mohamadrido.com/contact" class="bar-item button" onclick="toggleFunction()">CONTACT</a>
+    <a href="/contact" class="bar-item button" onclick="toggleFunction()">CONTACT</a>
     <a class="bar-item button" onclick="document.getElementById('searchModal').style.display='block'">SEARCH</a>
   </div>
 </div>
 {{ content }}
-<footer style="color: #666; text-align: center; padding: 16px;">
-<!-- Footer credit -->
-2018 - <span id="pdm" style="color: #666;"></span> &middot; <a style="color: #666;" href="https://mohamadrido.com">Mohamad Rido</a>
-<script>
-document.getElementById("pdm").innerHTML = new Date().getFullYear();
-</script>
-</footer>
   <!-- Search Modal -->
   <div id="searchModal" class="modal">
     <div class="modal-content animate-top card-4">
@@ -115,6 +107,5 @@ document.getElementById("pdm").innerHTML = new Date().getFullYear();
      exclude: ['Welcome']
       })
 </script>
-<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "dd0a4fbb43e7405ab716d99d14d1fb17"}'></script>
 </body>
 </html>
