@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>Space Clicker</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+<style>
+button,.btn {
+  background-color:deepskyblue;
+  color:white;
+  border:none;
+  padding:10px 15px;
+}
+button:hover,.btn:hover {
+  background-color:skyblue;
+  color:white;
+  border:none;
+  padding:10px 15px;
+}
+</style>
+</head>
+<body>
+<h1>Number 1</h1>
+
+    <script type="text/javascript">
+    var clicks = 0;
+
+    function onClick() {
+      clicks += 1;
+      document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+<button type="button" onClick="onClick()">Download</button>
+<span><i class="fa-solid fa-download"></i> <a id="clicks">0</a></span>
+
+<h1>Number 2</h1>
+
+    <input class="btn" type="button" value="Count" id="countButton" />
+
+    <p>The button was pressed <span id="displayCount">0</span> times.</p>
+
+    <script type="text/javascript">
+      var count = 0;
+      var button = document.getElementById("countButton");
+      var display = document.getElementById("displayCount");
+
+      button.onclick = function(){
+        count++;
+        display.innerHTML = count;
+      }
+    </script>
+    
+<h1>Number 3</h1>
+
+
+
+    <button id="btn">Click Here!</button>
+  
+    <p>
+        Button Clicked <span 
+        id="display">0</span> Times
+    </p>
+  
+    <script type="text/javascript">
+        var count = 0;
+        var btn = document.getElementById("btn");
+        var disp = document.getElementById("display");
+  
+        btn.onclick = function () {
+            count++;
+            disp.innerHTML = count;
+        }
+    </script>
+
+
+
+
+
+
+
+</body></html>
