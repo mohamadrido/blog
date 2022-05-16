@@ -7,10 +7,12 @@ title: Blog | Mohamad Rido
   {% for post in paginator.posts %}
   <div class="page-column" style="border-color: none;">
     <div class="page-card" style="border-color: #fff;">
+      <div style="background-color:white;border-radius:5px;">
       <a style="text-decoration: none; " href="{{site.baseurl}}{{post.url}}">
       <img alt="{{ post.title }}" title="{{ post.title }}" style="width: 100%; border-radius: 5px;" src="{{post.image}}">
       <h3 style="font-size: 1rem; font-weight: 400; color: #333;">{{ post.title }}</h3>
       </a>
+      </div>
     </div>
   </div>
   {% endfor %}
