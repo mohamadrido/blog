@@ -1,5 +1,5 @@
 ---
-title: "Solved: How to Generate Rounded Square Launcher Android Studio Legacy Icon"
+title: "Solved: Cara Generate Rounded Square Launcher Android Studio Legacy Icon"
 date: 2022-07-02
 category: [ Software ]
 tags: [ system ]
