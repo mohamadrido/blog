@@ -5,7 +5,7 @@ category: [ Software ]
 tags: [ system ]
 image: /assets/images/generate-rounded-square-launcher-android-studio.png
 ---
-Beberapa waktu lalu saya mencoba membuat aplikasi sederhana di <a href="https://developer.android.com/studio" style="color:#007bff;">android studio</a> dengan panduan video tutorial. Karena kurang jeli dalam melihat fitur-fitur yang ada di android studio, saya mencari cukup lama tentang icon launcher ketika di install hasilnya selalu versi lama (legacy icon). Di beberapa forum atau situs web menyarankan untuk menggunakan tool online, tetapi hal tersebut saya pikir bukan solusi yang saya cari. Karena saya bisa membuatnya sendiri di <a href="https://inkscape.org" style="color:#007bff;">inkscape</a>.<br/>
+Beberapa hari lalu saya mencoba membuat aplikasi sederhana di <a href="https://developer.android.com/studio" style="color:#007bff;">android studio</a> dengan panduan video tutorial. Karena kurang jeli dalam melihat fitur-fitur yang ada di android studio, saya mencari cukup lama tentang icon launcher ketika di install hasilnya selalu versi lama (legacy icon). Di beberapa forum atau situs web menyarankan untuk menggunakan tool online, tetapi hal tersebut saya pikir bukan solusi yang saya cari. Karena saya bisa membuatnya sendiri di <a href="https://inkscape.org" style="color:#007bff;">inkscape</a>.<br/>
 <br/>
 Saya coba perhatikan lebih teliti lagi, mungkin ada fitur yang saya lewatkan. Dan benar saja, fitur tersebut tersedia di dalamnya. Untuk mengeditnya tidak perlu merubah icon launcher yang sudah dipasang. Karena ini langkah tambahan dimana projek aplikasi yang sudah ada ketika di intall hasil icon launchernya versi lama (legacy icon).<br/>
 <br/>
