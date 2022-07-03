@@ -15,7 +15,7 @@ Langkahnya buka projek aplikasi yang sudah dibuat, dimana ketika di install icon
 <br/>
 <img class="img-post" src="{{site.baseurl}}/assets/images/app-new-image-asset-android-studio.jpg"><br/>
 <br/>
-Setelah itu akan terbuka tampilan <i style="color:#888;">Configure Image Asset</i>, di sini tidak akan upload ulang gambar icon. Melainkan pilih tab <i style="color:#888;">Options</i> dan pada menu ceklis <i style="color:#888;">Generate</i> yang semula <i style="color:#888;">Yes</i> ganti menjadi <i style="color:#888;">No</i>. Kemudian menyimpan hasilnya pilih <i style="color:#888;">Next</i> dan <i style="color:#888;">Finish</i>. Tampilannya kurang lebih seperti gambar di bawah ini.<br/>
+Setelah itu akan terbuka tampilan <i style="color:#888;">Configure Image Asset</i>, di sini tidak akan upload ulang gambar icon. Melainkan pilih tab <i style="color:#888;">Options</i> dan pada menu ceklis <i style="color:#888;">Generate</i> yang semula <i style="color:#888;">Yes</i> ganti menjadi <i style="color:#888;">No</i>. Kemudian untuk menyimpan hasilnya pilih <i style="color:#888;">Next</i> dan <i style="color:#888;">Finish</i>. Tampilannya kurang lebih seperti gambar di bawah ini.<br/>
 <br/>
 <img class="img-post" src="{{site.baseurl}}/assets/images/configure-image-asset-android-studio.png"><br/>
 <br/>
