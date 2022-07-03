@@ -9,7 +9,7 @@ Beberapa waktu lalu saya mencoba membuat aplikasi sederhana di <a href="https://
 <br/>
 Saya coba perhatikan lebih teliti lagi, mungkin ada fitur yang saya lewatkan. Dan benar saya, fitur tersebut tersedia di dalamnya. Untuk mengeditnya tidak perlu merubah icon launcher yang sudah dipasang. Karena ini langkah tambahan dimana projek aplikasi yang sudah ada ketika di intall hasil icon launchernya versi lama (legacy icon).<br/>
 <br/>
-<i>Catatan: Ini hanya panduan tambahan, mengenai tutorial cara pasang icon launcher dari awal bisa lihat video youtube.</i><br/>
+<i style="color:#888;">"Catatan: Ini hanya panduan tambahan, mengenai tutorial cara pasang icon launcher dari awal bisa lihat video youtube."</i><br/>
 <br/>
 Langkahnya buka projek aplikasi yang sudah dibuat, dimana ketika di install icon launchernya versi lama (legacy icon). Kemudian pilih klik kanan pada <i style="color:#888;">app</i> pilih <i style="color:#888;">New</i> cari dan pilih <i style="color:#888;">Image Asset</i>. Kurang lebihnya seperti pada tampilan gambar di bawah ini.<br/>
 <br/>
