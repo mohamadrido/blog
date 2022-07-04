@@ -18,4 +18,4 @@ Langkahnya buka projek aplikasi yang sudah dibuat, dimana ketika di install icon
 Setelah itu akan terbuka tampilan <i style="color:#888;">Configure Image Asset</i>, di sini tidak akan upload ulang gambar icon. Melainkan pilih tab <i style="color:#888;">Options</i> dan pada menu ceklis <i style="color:#888;">Generate</i> yang semula <i style="color:#888;">Yes</i> ganti menjadi <i style="color:#888;">No</i>. Kemudian untuk menyimpan hasilnya pilih <i style="color:#888;">Next</i> dan <i style="color:#888;">Finish</i>. Tampilannya kurang lebih seperti gambar di bawah ini.<br/>
 <br/>
 <img class="img-post" src="{{site.baseurl}}/assets/images/configure-image-asset-android-studio.png"><br/>
-<br/>
+<p style="color:#888;">Informasi tambahan: Dari tampilan yang ada di menu Options, dapat diketahui bahwa untuk munculkan generate launcher terbaru secara otomatis (Rounded Square) harus menggunakan minimum SDK di API 25: Android 7.1.1 (Nougat) pada projek yang dibuat. Karena saya membuat projek pada minimum SDK di API 21: Android 5.0 (Lollipop) maka hasilnya generate launcher yang muncul adalah versi "Legacy Icon (API ≤ 25)". </p>
