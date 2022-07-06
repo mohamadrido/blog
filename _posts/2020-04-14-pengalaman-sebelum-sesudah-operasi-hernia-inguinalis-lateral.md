@@ -17,7 +17,31 @@ Saya berangkat menuju rumah sakit sendirian, lebih tepatnya menggunakan jasa tra
 <br />
 Tidak ada pertanyaan apapun yang ingin saya sampaikan saat itu, melainkan dokter tersebut yang menanyakan apakah ada halangan atau tidak di hari kamis nanti terkait hal-hal yang bersifat pantangan atau larangan dalam adat kepercayaan orang jawa. Kemudian saya jawab tidak ada, akhir dari konsultasi saya diminta nomor ponsel yang bisa dihubungi dua hari sebelum operasi terkait persiapan apa saja yang harus saya lakukan. Sebelum keluar ruangan diberikan kertas bertulisan untuk proses administrasi hari itu dan diberikan nomor kontak rumah sakit ketika mengurus administrasi yang tidak sampai 100 ribu. Dokter spesialis bedah yang saya tuju adalah seorang wanita, bukan apa-apa tapi alasan pribadi saya yaitu track recordnya.<br />
 <br />
-Tiga hari sebelum operasi saya mendapat kabar dari perawat rumah sakit untuk mencukur bulu kemaluan, karena letak bagian yang akan di operasi berdekatan dengan kemaluan dan pada hari kamisnya nanti mulai jam sebilan pagi menjelang operasi dianjurkan sudah tidak makan dan minum (puasa). Kamis 09 Mei 2019, sekitar pukul 8 pagi berangkat dari rumah menuju rumah sakit bersama kakak saya ditemani dua orang lagi untuk menemani kakak saya mengurus administrasi apabila saya masuk ruang operasi dan rawat inap nanti. Persiapan yang saya bawa dari rumah hanya kartu identitas, kartu debit yang dan smartphone. Sedangkan kakak saya membawa tikar lipat dan bantal untuk persiapan menginap semalam. Setelah menunggu beberapa jam, sekitar jam 11 pagi saya masuk ruang untuk dipasang selang infus di tangan kiri dan di tangan kanan kalau tidak diberikan suntik antibiotik. Kemudian kakak saya dipanggil untuk mengurus administrasi, di sini membayar sejumlah uang muka sebelum operasi. Setelah beberapa saat saya dibawa dengan kursi roda menuju ruang ganti pakaian
+Tiga hari sebelum operasi saya mendapat kabar dari perawat rumah sakit untuk mencukur bulu kemaluan, karena letak bagian yang akan di operasi berdekatan dengan kemaluan dan pada hari kamisnya nanti mulai jam sebilan pagi menjelang operasi dianjurkan sudah tidak makan dan minum (puasa). Kamis 09 Mei 2019, sekitar pukul 8 pagi berangkat dari rumah menuju rumah sakit bersama kakak saya ditemani dua orang lagi untuk menemani kakak saya mengurus administrasi apabila saya masuk ruang operasi dan rawat inap nanti. Persiapan yang saya bawa dari rumah hanya kartu identitas, kartu debit yang dan smartphone. Sedangkan kakak saya membawa tikar lipat dan bantal untuk persiapan menginap semalam. Setelah menunggu beberapa jam, sekitar jam 11 pagi saya masuk ruang untuk dipasang selang infus di tangan kiri dan di tangan kanan kalau tidak diberikan suntik antibiotik. Kemudian kakak saya dipanggil untuk mengurus administrasi, di sini membayar sejumlah uang muka sebelum operasi. Setelah beberapa saat saya dibawa dengan kursi roda menuju ruang ganti pakaian<br/>
+<br/>
+Di dalam ruang ganti pakaian untuk operasi kakak saya dibantu seorang perawat perempuan, 
+karena tangan kiri saya sudah terpasang selang infus. Meskipun pakaian dilepas semua (diganti pakaian operasi), 
+tapi dalam proses gantinya tidak terbuka semua, jadi tidak merasa malu. Setelah ganti pakaian saya berbaring di ranjang/tempat tidur dorong di ruang tersebut, 
+kemudian perawat menyuruh untuk berdoa bersama sebelum saya diantarkan menuju ruangan operasi. Karena keluarga/kerabat yang menemani hanya sampai di ruang ganti saja. 
+Selanjutnya dipersilahkan untuk berada di ruang tunggu sampai operasi selesai. 
+
+Di atas ranjang/tempat tidur dorong saya di bawa menuju ruang operasi melalui lift dan kakak saya menuju ruang tunggu. 
+Sebelum masuk ruang operasi saya berada di tempat seperti lorong sterilisasi (seperti lorong ruang kamar operasi), 
+tidak langsung masuk karena di dalam juga antrian pasien lain sebelum saya. 
+Saya tahu hal ini karena saya mendengar percakapan antar perawat yang ada di sana. Di lorong tersebut 
+udaranya juga lebih dingin dari ruangan normal lainnya yang dipasang ac/pendingin ruangan. 
+
+Beberapa menit kemudian saya bisa masuk sesudah 
+disterilisasi dari operasi pasien sebelum saya. Ketika berada di dalam ruang operasi saat pertama kalinya dalam hidup saya, 
+yang bisa saya deskripsikan adalah suhu rungan yang benar-benar dingin. 
+Tentu saja hal tersebut salah satu prosedur untuk menjaga ruang operasi tetap steril, 
+bahkan daun pintunya sangat tebal (lebih dari satu jengkal tangan) seperti pintu khusus brangkas menyimpan uang. 
+
+Di dalam ruang operasi saya diangkat dua perawat/dokter laki-laki masih muda, dalam kondisi berbaring dari ranjang/tempat tidur dorong ke 
+tempat tidur khusus operasi, yang di atasnya ada banyak lampu dan diberi selimut juga. 
+Setelah mereka selesai dengan tugasnya, dan keluar ruangan. Datang dua dokter khusus anestesi yang akan memberikan suntikan 
+bius lokal pada area punggung di baginan ruas-ruas tulang belakang. Dari posisi tidur saya dibangunkan, menjadi posisi 
+duduk kaki tetap lurus dan badan sedikit membungkuk ke depan.
 <br />
 <br />
 <i>Bersambung...</i>
