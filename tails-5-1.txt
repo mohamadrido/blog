@@ -1,0 +1,9 @@
+sources.list.d
+  sid.list
+  deb tor+https://cdn-fastly.deb.debian.org/debian/ sid main contrib
+  
+  tails.list
+  deb tor+http://umjqavufhoix3smyq6az2sx4istmuvsgmz4bq5u5x56rnayejoo6l2qd.onion/ 5.1 main contrib
+
+  torproject.list
+  deb tor+http://apow7mjfryruh65chtdydfmqfpj5btws7nbocgtaovhvezgccyjazpqd.onion/torproject.org/ bullseye main
