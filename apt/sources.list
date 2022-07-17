@@ -1,0 +1,4 @@
+# /etc/apt/sources.list
+
+deb tor+https://cdn-fastly.deb.debian.org/debian/ buster main contrib
+deb tor+https://cdn-fastly.deb.debian.org/debian-security/ buster/updates main contrib

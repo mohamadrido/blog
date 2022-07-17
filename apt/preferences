@@ -1,0 +1,92 @@
+Package: amd64-microcode
+Pin: release o=Debian,n=sid
+Pin-Priority: 999
+
+Package: b43-fwcutter
+Pin: release o=Debian,n=sid
+Pin-Priority: 999
+
+Package: firmware-b43-installer
+Pin: release o=Debian,n=sid
+Pin-Priority: 999
+
+Package: firmware-b43legacy-installer
+Pin: release o=Debian,n=sid
+Pin-Priority: 999
+
+Package: firmware-linux-free
+Pin: release o=Debian,n=sid
+Pin-Priority: 999
+
+Explanation: src:firmware-nonfree
+Package: firmware-linux firmware-linux-nonfree firmware-amd-graphics firmware-atheros firmware-brcm80211 firmware-intel-sound firmware-ipw2x00 firmware-iwlwifi firmware-libertas firmware-misc-nonfree firmware-realtek firmware-ti-connectivity
+Pin: release o=Debian,n=sid
+Pin-Priority: 990
+
+Package: firmware-sof-signed
+Pin: release o=Debian,n=sid
+Pin-Priority: 999
+
+Package: firmware-zd1211
+Pin: release o=Debian,n=sid
+Pin-Priority: 999
+
+Package: linux-compiler-* linux-headers-* linux-image-* linux-kbuild-* linux-source-*
+Pin: release o=Debian,n=bullseye
+Pin-Priority: 999
+
+Package: linux-compiler-* linux-headers-* linux-image-* linux-kbuild-* linux-source-*
+Pin: release o=Debian,n=bullseye-security
+Pin-Priority: 999
+
+Explanation: src:live-boot (#15477)
+Package: live-boot live-boot-doc live-boot-initramfs-tools
+Pin: origin umjqavufhoix3smyq6az2sx4istmuvsgmz4bq5u5x56rnayejoo6l2qd.onion
+Pin-Priority: 999
+
+Explanation: Dummy package since we install obfs4proxy from the Tor Browser tarball (#18800)
+Package: obfs4proxy
+Pin: origin umjqavufhoix3smyq6az2sx4istmuvsgmz4bq5u5x56rnayejoo6l2qd.onion
+Pin-Priority: 999
+
+Package: webext-ublock-origin-firefox
+Pin: release o=Debian,n=sid
+Pin-Priority: 999
+
+Explanation: since linux-image-5.6.0-1-amd64 we have: Breaks: wireless-regdb (< 2019.06.03-1~) and 2016.06.10-1 is stable
+Package: wireless-regdb
+Pin: release o=Debian,n=sid
+Pin-Priority: 999
+
+Explanation: weirdness in chroot_apt install-binary
+Package: *
+Pin: release o=chroot_local-packages
+Pin-Priority: 1010
+
+Package: *
+Pin: origin umjqavufhoix3smyq6az2sx4istmuvsgmz4bq5u5x56rnayejoo6l2qd.onion
+Pin-Priority: 990
+
+Package: *
+Pin: release o=Debian,n=bullseye
+Pin-Priority: 990
+
+Package: *
+Pin: release o=Debian,n=bullseye-updates
+Pin-Priority: 990
+
+Package: *
+Pin: release l=Debian-Security,n=bullseye-security
+Pin-Priority: 990
+
+Package: *
+Pin: release o=TorProject,n=bullseye
+Pin-Priority: 990
+
+Package: *
+Pin: release o=Debian
+Pin-Priority: -10
+
+Package: *
+Pin: release o=TorProject
+Pin-Priority: -10
