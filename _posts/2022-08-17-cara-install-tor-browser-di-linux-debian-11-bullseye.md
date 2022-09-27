@@ -8,7 +8,7 @@ image: /assets/images/tor-browser-linux-debian.png
 Silahkan buka Terminal dan ketik <i>su</i> (artinya super user), kemudian tekan Enter. Jika ada password juga masukan dan tekan Enter. Kurang lebih tampilannya seperti gambar di bawah.<br/>
 <br/>
 su<br/>
-<i>masukan password</i><br/>
+<i style="color:gray;">masukan password</i><br/>
 cd<br/>
 apt install torbrowser-launcher<br/>
 <br/>
